@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/peddiredds/argocd.git
+    repoURL: https://github.com/venugopalsgnew/ArgoCD_Legro.git
     targetRevision: HEAD
     path: charts/myapp
     helm:
