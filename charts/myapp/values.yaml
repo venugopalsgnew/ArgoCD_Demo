@@ -5,7 +5,7 @@ image:
   repository: 287489840086.dkr.ecr.ap-southeast-1.amazonaws.com/myecr
   # pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  dockerImageTag: 10
+  dockerImageTag: 11
 
 # imagePullSecrets: []
 # nameOverride: ""
