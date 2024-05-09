@@ -16,7 +16,8 @@ spec:
     spec:
       containers:
       - name: spring-boot-app
-        image: {{.Values.image.repository}}:{{.Values.image.dockerImageTag}}
+        #image: {{.Values.image.repository}}:{{.Values.image.dockerImageTag}}
+        image: nginx
         ports:
         - containerPort: 8080
       imagePullSecrets:
